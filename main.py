@@ -49,4 +49,7 @@ def search_skill(skill):
          if settings['limit'] == limit:
             return render_template('search.html', users_list=users_list, users_count=len(users_list))
 
-app.run()
+
+if __name__ == "__main__":
+    app.run()
+
